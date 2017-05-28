@@ -96,7 +96,39 @@ textarea {
    ========================================================================== */
 
 
+div div {
+    position: relative;
+}
 
+img {
+    position: absolute;
+}
+
+.container {
+    text-align: center;
+}
+
+#leftSide, #rightSide {
+    width: 500px;
+    height: 500px;
+}
+
+#rightSide {
+    left: 50%;
+    border-left: #000000 solid 2px;
+}
+
+#leftSide {
+    float: left;
+    right: 50%;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    bottom: 0;
+}
 
 
 
